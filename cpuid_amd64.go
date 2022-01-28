@@ -476,7 +476,7 @@ func leaf0x8000001f() {
 		return
 	}
 
-	if brandId != AMD {
+        if brandId != AMD && brandId != HYGON {
 		return
 	}
 
